@@ -5,7 +5,7 @@
 <body>
 	<?php
 		// Esto es un numero entero
-	$numero=13;
+	$numero=15;
 	
 	echo $numero;
 	?>
