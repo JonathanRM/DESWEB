@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "/F/Grado Superior - Desarrollo de Aplicaciones Multiplataforma/Desarrollo- Web Servidor/DESWEB"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"close_on_stop": true,
+			"path_mapping":
+			{
+				"/var/www/html/sublime/probandodebug/": "F:/Grado Superior - Desarrollo de Aplicaciones Multiplataforma/Desarrollo- Web Servidor/DESWEB/sublime/probandodebug/"
+				},
+			"super_globals":true,
+			"url": "http://10.2.10.28/sublime/probandodebug/"
+		}
+	}
+}

@@ -1,7 +1,10 @@
 <?php
 	function avatarCode($entrada)
 	{
-		return $entrada*-1;
+		return $entrada*-1;  
+		/* He modificado en la funcion php añadiendo "*-1"  :
+return $entrada*-1;
+porque al valor de salida lo multiplicamos por -1 ( x*-1 ) y asi cambiamos el valor de salida al deseado.*/
 	}
 ?>
 <html>
