@@ -1,6 +1,6 @@
 <?php
 
-//Array multilenguaje			// MENU en PHP
+//Array multilenguaje			// MENU en PHP // Jonathan
 $lang="sp";
 
 $menu=array(
