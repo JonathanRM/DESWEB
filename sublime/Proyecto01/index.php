@@ -64,14 +64,21 @@ $menu=array(
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><?php echo $menu['titulo'][$lang]?></a>
+      <a class="navbar-brand" href="#"><?php echo $menu['titulo'][$lang]?></a>  <!-- Mostrar titulo de php -->
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <li class="active"><a href="#"><?php echo $menu['portada'][$lang]?></a></li><!-- Mostrar inicio de php -->
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $menu['tipos'][$lang]?><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
+            
+            <?php // Para generar el submenú usamos un "Foreach anidado"
+            foreach( $menu['tiposJuego'] as $clave => $valor){
+              
+              if($clave == 'submenu'){  // Para comprobar si es un submenú usamos un "If"
+                foreach ($valor as $tiposJuego) ?> <!-- Para insertar las secciones, utilizamos un foreach que ya ha recorrido el array -->
+   
+            <li><a href="#"><?php echo $tiposJuego[$lang] ?></a></li>
             <li><a href="#">Page 1-2</a></li>
             <li><a href="#">Page 1-3</a></li>
           </ul>
