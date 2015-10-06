@@ -37,12 +37,7 @@ $menu=array(
 	)
 
 
-/* function para escribir!!!!!
- 
-		function resultado(){
-		     if ($lang=="sp"){
-	 			print_r($menu[1]);
-	  		}
+/* for each
 	*/
 ?>		
 
@@ -59,9 +54,9 @@ $menu=array(
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
   <!-- LIBRERIAS BOOSTRAPS EN CSS -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- -->
 </head>
 <body>
@@ -69,7 +64,7 @@ $menu=array(
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#"><?php echo $menu['titulo'][$lang]?></a>
     </div>
     <div>
       <ul class="nav navbar-nav">
