@@ -16,8 +16,12 @@ $menu=array(
 		"sp"=>"Instrucciones",
 		"en"=>"Instructions"
 		),
+		"contacto"=>array(
+		"sp"=>"Contacto",
+		"en"=>"Contact"
+		),
 	"tiposJuego"=>array(
-		"sp"=>"Tipos juego",
+		"sp"=>"Tipos de juego",
 		"en"=>"Game choice",
 		"submenu"=>array(
 			"tipo1"=>array(
@@ -36,9 +40,6 @@ $menu=array(
 		)
 	)
 
-
-/* for each
-	*/
 ?>		
 
 
@@ -49,7 +50,7 @@ $menu=array(
 <!DOCTYPE html>
 <html lang="sp">
 <head>
-  <title>Bootstrap Case</title>
+  <title>Math Dice - Online</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
@@ -69,22 +70,19 @@ $menu=array(
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#"><?php echo $menu['portada'][$lang]?></a></li><!-- Mostrar inicio de php -->
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $menu['tipos'][$lang]?><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            
-            <?php // Para generar el submenú usamos un "Foreach anidado"
-            foreach( $menu['tiposJuego'] as $clave => $valor){
-              
-              if($clave == 'submenu'){  // Para comprobar si es un submenú usamos un "If"
-                foreach ($valor as $tiposJuego) ?> <!-- Para insertar las secciones, utilizamos un foreach que ya ha recorrido el array -->
-   
-            <li><a href="#"><?php echo $tiposJuego[$lang] ?></a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $menu['tiposJuego'][$lang]?><span class="caret"></span></a><!-- Mostrar tipos de juego de php -->
+          <ul class="dropdown-menu"> 
+          
+          
+          <!-- For each, ¿?¿?¿?¿? -->
+      
+            <li><a href="#">Page 1-1</a></li>
             <li><a href="#">Page 1-2</a></li>
             <li><a href="#">Page 1-3</a></li>
           </ul>
         </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="#"><?php echo $menu['instrucciones'][$lang]?></a></li>
+        <li><a href="#"><?php echo $menu['contacto'][$lang]?></a></li>
       </ul>
     </div>
   </div>
@@ -125,6 +123,5 @@ $menu=array(
     <div class="clearfix visible-lg"></div>
   </div>
 </div>
-
 </body>
 </html>
