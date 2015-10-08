@@ -74,12 +74,19 @@ $menu=array(
           <ul class="dropdown-menu"> 
           
           
-          <!-- For each, ¿?¿?¿?¿? -->
+          <!-- For each -->
       
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
+             <?php 
+                    foreach( $menu['tiposJuego'] as $clave => $valor ){
+                      
+                      if($clave == 'submenu'){
+                         
+                        foreach ($valor as $juegos){ ?>
+                            <li><a href="#"><?php echo $juegos[$lang] ?></a></li>
+                    <?php } 
+                         }
+                    } ?>
+                  </ul>
         </li>
         <li><a href="#"><?php echo $menu['instrucciones'][$lang]?></a></li>
         <li><a href="#"><?php echo $menu['contacto'][$lang]?></a></li>
