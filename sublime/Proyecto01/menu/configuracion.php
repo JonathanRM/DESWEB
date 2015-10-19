@@ -139,7 +139,8 @@ $menu=array(
   
   <!--Boton lanzar dado -->
   <form method="post">  
-       <?php echo lanzarDado() ?><br/>
+     <font size="6">Dado aleatorio:</font><br/>
+       <?php echo lanzarDado() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
   </form> 
 
