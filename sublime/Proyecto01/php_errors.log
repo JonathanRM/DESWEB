@@ -2,3 +2,11 @@
 [19-Oct-2015 07:15:00 UTC] PHP Stack trace:
 [19-Oct-2015 07:15:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
 [19-Oct-2015 07:15:00 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3
+[19-Oct-2015 08:36:02 UTC] PHP Fatal error:  Call to undefined function lanzarDado3caras() in /home/ubuntu/workspace/sublime/Proyecto01/menu/configuracion.php on line 193
+[19-Oct-2015 08:36:02 UTC] PHP Stack trace:
+[19-Oct-2015 08:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
+[19-Oct-2015 08:36:02 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3
+[19-Oct-2015 08:36:05 UTC] PHP Fatal error:  Call to undefined function lanzarDado3caras() in /home/ubuntu/workspace/sublime/Proyecto01/menu/configuracion.php on line 193
+[19-Oct-2015 08:36:05 UTC] PHP Stack trace:
+[19-Oct-2015 08:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
+[19-Oct-2015 08:36:05 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3

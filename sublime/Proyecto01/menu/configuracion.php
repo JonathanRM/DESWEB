@@ -126,6 +126,7 @@ $menu=array(
 
 <div class="container">
 
+<!------------------------------------------------->
 <!-- dado normal -->
   <div class="row">
        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
@@ -146,7 +147,7 @@ $menu=array(
   </form> 
 
 <br><br><br><br>
-<!-- -------------------------->
+<!-- -------------------------------------------------->
 
         <!-- Dado dodecaedro -->
  <div class="row">
@@ -173,8 +174,30 @@ $menu=array(
        <?php echo lanzarDadoDodecaedro() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
   </form> 
- 
+<br><br><br><br>
+<!-- -------------------------------------------->
 
+
+
+<!-- dado normal 3 caras -->
+  <div class="row">
+       <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/3.png"></div>
+
+  </div>
+  
+  <br><br><br><br>
+  
+  <!--Boton lanzar dado -->
+  <form method="post">  
+     <font size="6">Dado aleatorio:</font><br/>
+       <?php echo lanzarDado3() ?>
+        <?php echo lanzarDado3() ?><br/><br/>
+      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
+  </form> 
+ 
+<!-- -------------------------------------------->
 
 </div>
 

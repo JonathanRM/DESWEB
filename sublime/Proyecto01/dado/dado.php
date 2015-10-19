@@ -99,6 +99,31 @@
          }
          
       }
+      
+        function lanzarDado3(){
+        $numero = rand(1,3);
+        
+        
+        switch($numero){
+            case 0:
+                
+            break;
+            
+            case 1:
+               echo "<img src='../dado/imgs/1.png' >";
+            break;
+            
+            case 2:
+               echo "<img src='../dado/imgs/2.png' >";
+            break;
+            
+            case 3:
+               echo "<img src='../dado/imgs/3.png' >";
+            break;
+           
+         }
+         
+      }
         
     
 ?>
