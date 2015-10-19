@@ -1,6 +1,5 @@
 <?php
 
-
 //Array multilenguaje			// MENU en PHP // Jonathan
 $lang="sp";
 
@@ -128,21 +127,23 @@ $menu=array(
 <div class="container">
 
   <div class="row">
-        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
-        <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/3.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/4.png"></div>
-        <div class="col-sm-2"><img src="../dado/imgs/5.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/5.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/6.png"></div>
   </div>
   
-  <br><br><br><br><br><br><br><br>
+  <br><br><br><br>
   
   <!--Boton lanzar dado -->
-  
-  <button onclick="lanzarDado()" class="btn btn-success">Lanzar dado !</button>
-  
-  
+  <form method="post">  
+       <?php echo lanzarDado() ?><br/>
+      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
+  </form> 
+
+ 
 
 
 </div>

@@ -12,33 +12,34 @@
             break;
             
             case 1:
-               echo "<img src='imgs/1.png' >";
+               echo "<img src='../dado/imgs/1.png' >";
             break;
             
             case 2:
-               echo "<img src='imgs/2.png' >";
+               echo "<img src='../dado/imgs/2.png' >";
             break;
             
             case 3:
-               echo "<img src='imgs/3.png' >";
+               echo "<img src='../dado/imgs/3.png' >";
             break;
             
             case 4:
-               echo "<img src='imgs/4.png' >";
+               echo "<img src='../dado/imgs/4.png' >";
             break;
             
              case 5:
-               echo "<img src='imgs/5.png' >";
+               echo "<img src='../dado/imgs/5.png' >";
             break;
             
             case 6:
-               echo "<img src='imgs/6.png' >";
+               echo "<img src='../dado/imgs/6.png' >";
             break;
             
          }
+         
       }
         
-        return lanzarDado();
+     
     
 ?>
 
