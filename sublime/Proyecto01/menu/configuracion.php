@@ -126,6 +126,7 @@ $menu=array(
 
 <div class="container">
 
+<!-- dado normal -->
   <div class="row">
        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
@@ -137,13 +138,41 @@ $menu=array(
   
   <br><br><br><br>
   
-  <!--Boton lanzar dado -->
+  <!--Boton lanzar dado normal -->
   <form method="post">  
      <font size="6">Dado aleatorio:</font><br/>
        <?php echo lanzarDado() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
   </form> 
 
+<br><br><br><br>
+<!-- -------------------------->
+
+        <!-- Dado dodecaedro -->
+ <div class="row">
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/1.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/2.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/3.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/4.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/5.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/6.png"></div>
+       <div class="col-sm-2">.</div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/7.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/8.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/9.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/10.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/11.png"></div>
+       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/12.png"></div>
+  </div>
+  
+  <br><br><br><br>
+  
+  <!--Boton lanzar dado  -->
+  <form method="post">  
+     <font size="6">Dado aleatorio dodecaedro:</font><br/>
+       <?php echo lanzarDadoDodecaedro() ?><br/><br/>
+      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
+  </form> 
  
 
 
