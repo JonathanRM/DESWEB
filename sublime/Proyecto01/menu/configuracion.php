@@ -127,7 +127,7 @@ $menu=array(
 <div class="container">
 
 <!------------------------------------------------->
-<!-- dado normal -->
+<!-- dado normal --> <font size="6"><i>Dado 5 caras</i></font><br/>
   <div class="row">
        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
@@ -137,11 +137,11 @@ $menu=array(
        <div class="col-sm-2"><img src="../dado/imgs/6.png"></div>
   </div>
   
-  <br><br><br><br>
+  <br><br>
   
   <!--Boton lanzar dado normal -->
   <form method="post">  
-     <font size="6">Dado aleatorio:</font><br/>
+     <font size="4">Dado aleatorio:</font><br/>
        <?php echo lanzarDado() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
   </form> 
@@ -150,7 +150,7 @@ $menu=array(
 <!-- -------------------------------------------------->
 
         <!-- Dado dodecaedro -->
- <div class="row">
+ <div class="row"> <font size="6"><i>Dado dodecaedro</i></font><br/>
        <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/1.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/2.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/3.png"></div>
@@ -166,11 +166,11 @@ $menu=array(
        <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/12.png"></div>
   </div>
   
-  <br><br><br><br>
+  <br><br>
   
   <!--Boton lanzar dado  -->
   <form method="post">  
-     <font size="6">Dado aleatorio dodecaedro:</font><br/>
+     <font size="4">Dado aleatorio dodecaedro:</font><br/>
        <?php echo lanzarDadoDodecaedro() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
   </form> 
@@ -180,18 +180,18 @@ $menu=array(
 
 
 <!-- dado normal 3 caras -->
-  <div class="row">
+  <div class="row"> <font size="6"><i>Dado 3 caras</i></font><br/>
        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/3.png"></div>
 
   </div>
   
-  <br><br><br><br>
+  <br><br>
   
   <!--Boton lanzar dado -->
   <form method="post">  
-     <font size="6">Dado aleatorio:</font><br/>
+     <font size="4">Dado aleatorio:</font><br/>
        <?php echo lanzarDado3() ?>
         <?php echo lanzarDado3() ?><br/><br/>
       <input type="submit" class="btn btn-success" value="Lanzar dado"/>
