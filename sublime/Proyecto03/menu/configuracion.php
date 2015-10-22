@@ -127,77 +127,64 @@ $menu=array(
 <div class="container">
 
 <!------------------------------------------------->
-<!-- dado normal --> <font size="6"><i>Dado 5 caras</i></font><br/>
-  <div class="row">
-       <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/3.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/4.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/5.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/6.png"></div>
-  </div>
-  
-  <br><br>
+<!-- dado normal --> 
   
   <!--Boton lanzar dado normal -->
+  
+  <table width=100%>
   <form method="post">  
-     <font size="4">Dado aleatorio:</font><br/>
-       <?php echo lanzarDado() ?><br/><br/>
-      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
+  <tr>
+     <td>
+         <font size="4">Dado 1:</font><br/>
+         <?php echo lanzarDado() ?><br/>
+     </td>
+   <td>
+       <font size="4">Dado 2:</font><br/>
+        <?php echo lanzarDado() ?><br/>
+        </td>
+   <td>
+        <label>Dado 1</label>
+      <input type="text" class="form-control" >
+      
+      <!-- radio -->
+        <div class="radio">
+              <label>
+                <input type="radio" name="opciones" id="opciones_1" value="+" checked>
+                +
+              </label>
+              <label>
+                <input type="radio" name="opciones" id="opciones_2" value="-">
+               -
+              </label>
+              
+        </div>
+       <!-- -->
+        <label>Dado 2</label>
+      <input type="text" class="form-control" >
+       <br/>
+       <button type="submit" class="btn btn-default">Submit</button>
+       
+       
+       
+        <!-- Pruebas, pasar informacion a resultado -->
+        
+        <a href="resultado.php?nombre=Jonathan">Link resultado</a>
+        
+        
+        <!-- -->
+        
+        
+        
+   </td>  
+        
+        
+    </tr>
+    
+      
   </form> 
-
-<br><br><br><br>
-<!-- -------------------------------------------------->
-
-        <!-- Dado dodecaedro -->
- <div class="row"> <font size="6"><i>Dado dodecaedro</i></font><br/>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/1.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/2.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/3.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/4.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/5.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/6.png"></div>
-       <div class="col-sm-2">.</div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/7.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/8.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/9.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/10.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/11.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/dodecaedro/12.png"></div>
-  </div>
-  
-  <br><br>
-  
-  <!--Boton lanzar dado  -->
-  <form method="post">  
-     <font size="4">Dado aleatorio:</font><br/>
-       <?php echo lanzarDadoDodecaedro() ?><br/><br/>
-      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
-  </form> 
-<br><br><br><br>
-<!-- -------------------------------------------->
+</table>
 
 
-
-<!-- dado normal 3 caras -->
-  <div class="row"> <font size="6"><i>Dado 3 caras</i></font><br/>
-       <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>
-       <div class="col-sm-2"><img src="../dado/imgs/3.png"></div>
-
-  </div>
-  
-  <br><br>
-  
-  <!--Boton lanzar dado -->
-  <form method="post">  
-     <font size="4">Dado aleatorio:</font><br/>
-       <?php echo lanzarDado3() ?>
-        <?php echo lanzarDado3() ?><br/><br/>
-      <input type="submit" class="btn btn-success" value="Lanzar dado"/>
-  </form> 
- 
-<!-- -------------------------------------------->
 
 </div>
 
