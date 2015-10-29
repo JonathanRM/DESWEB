@@ -95,3 +95,5 @@
 [26-Oct-2015 09:38:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 20
 [26-Oct-2015 09:38:56 UTC] PHP Stack trace:
 [26-Oct-2015 09:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[29-Oct-2015 11:28:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 41
+[29-Oct-2015 11:32:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 39

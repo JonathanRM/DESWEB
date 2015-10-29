@@ -5,8 +5,8 @@ $lang="sp";
 
 $menu=array(
 	"titulo"=>array(
-		"sp"=>"Math Dice",
-		"en"=>"Math dice"
+		"sp"=>"<img src='../dado/imgs/logo1.png'>",
+		"en"=>"<img src='../dado/imgs/logo1.png'>"
 	    ),
 	"portada"=>array(
 		"sp"=>"Inicio",
@@ -122,49 +122,6 @@ $menu=array(
 
 <div class="container">
 
-<!------------------------------------------------->
-<!-- dado normal --> 
-  
-  <!--Boton lanzar dado normal -->
-  
-  <table width=100%>
-  <form action="resultado.php" style="margin-top:50px; margin-left:30px; border:solid; padding:1em;">  
-  <tr>
-     <td>
-         <font size="4">Dado 1:</font><br/>
-         <?php echo lanzarDado() ?><br/>
-         
-     </td>
-   <td>
-       <font size="4">Dado 2:</font><br/>
-        <?php echo lanzarDado() ?><br/>
-        </td>
-   <td>
-        <label>Dado 1</label>
-      <input type="text" class="form-control" id="dados1">
-      
-      <!-- radio -->
-        <div class="radio">
-              <label>
-                <input type="radio" name="operacion" id="operacion1" value="+" checked>+&nbsp;&nbsp;&nbsp;&nbsp;
-              </label>
-              <label>
-                <input type="radio" name="operacion" id="operacion2" value="-">
-               -
-              </label>
-              
-        </div>
-       <!-- -->
-        <label>Dado 2</label>
-      <input type="text" class="form-control" id="dados2">
-       <br/>
-       <button type="submit" class="btn btn-default">Resultado</button>
-       
-  
-   </td>  
-    </tr>
-  </form> 
-</table>
 
 
 
