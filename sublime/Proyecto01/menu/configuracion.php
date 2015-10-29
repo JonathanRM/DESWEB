@@ -102,15 +102,15 @@ $menu=array(
           <ul class="dropdown-menu"> 
           
           
-    <!-- For each de ayuda -->
+    <!-- For each de ayuda, probando mas ejemplos -->
       
              <?php 
-                    foreach( $menu['ayuda'] as $clave => $valor ){ // Las claves de tipos de juego las guarda en valor
+                    foreach( $menu['ayuda'] as $clave => $valor ){ // Las claves de ayuda las guarda en valor
                       
                       if($clave == 'submenu2'){  // Si la clave es igual a submenu entrará y ...
                          
-                        foreach ($valor as $juegos){    // Los valores los mostrará en juegos?>   
-                            <li><a href="#"><?php echo $juegos[$lang] ?></a></li>
+                        foreach ($valor as $ayuda){    // Los valores los mostrará en ayuda?>   
+                            <li><a href="#"><?php echo $ayuda[$lang] ?></a></li>
                     <?php } 
                          }
                     } ?>
@@ -127,7 +127,7 @@ $menu=array(
 <div class="container">
 
 <!------------------------------------------------->
-<!-- dado normal --> <font size="6"><i>Dado 5 caras</i></font><br/>
+<!-- dado normal --> <font size="6"><i>Dado 6 caras</i></font><br/>
   <div class="row">
        <div class="col-sm-2"><img src="../dado/imgs/1.png"></div>
        <div class="col-sm-2"><img src="../dado/imgs/2.png"></div>

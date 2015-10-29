@@ -46,3 +46,52 @@
 [22-Oct-2015 11:29:41 UTC] PHP Stack trace:
 [22-Oct-2015 11:29:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
 [22-Oct-2015 11:29:41 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[23-Oct-2015 09:17:50 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:17:50 UTC] PHP Stack trace:
+[23-Oct-2015 09:17:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:18:20 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:18:20 UTC] PHP Stack trace:
+[23-Oct-2015 09:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:19:03 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:19:03 UTC] PHP Stack trace:
+[23-Oct-2015 09:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:19:05 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:19:05 UTC] PHP Stack trace:
+[23-Oct-2015 09:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:23 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:35 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:38 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:38:09 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 07:38:09 UTC] PHP Stack trace:
+[26-Oct-2015 07:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:38:09 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 07:38:09 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:144
+[26-Oct-2015 07:39:01 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 07:39:01 UTC] PHP Stack trace:
+[26-Oct-2015 07:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:39:01 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 07:39:01 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:144
+[26-Oct-2015 09:30:35 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:35 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:35 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:35 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:30:41 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:41 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:41 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:41 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:30:43 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:43 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:43 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:43 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:38:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 20
+[26-Oct-2015 09:38:56 UTC] PHP Stack trace:
+[26-Oct-2015 09:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0

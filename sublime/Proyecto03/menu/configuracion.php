@@ -63,12 +63,8 @@ $menu=array(
 				<!-- BOOTSTRAP HTML -->
 <!DOCTYPE html>
 <html lang="sp">
-    
-
-
-
 <body>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -107,7 +103,7 @@ $menu=array(
              <?php 
                     foreach( $menu['ayuda'] as $clave => $valor ){ // Las claves de tipos de juego las guarda en valor
                       
-                      if($clave == 'submenu2'){  // Si la clave es igual a submenu entrará y ...
+                      if($clave == 'submenu2'){  // Si la clave es igual a submenu2 entrará y ...
                          
                         foreach ($valor as $juegos){    // Los valores los mostrará en juegos?>   
                             <li><a href="#"><?php echo $juegos[$lang] ?></a></li>
@@ -132,11 +128,12 @@ $menu=array(
   <!--Boton lanzar dado normal -->
   
   <table width=100%>
-  <form method="post">  
+  <form action="resultado.php" style="margin-top:50px; margin-left:30px; border:solid; padding:1em;">  
   <tr>
      <td>
          <font size="4">Dado 1:</font><br/>
          <?php echo lanzarDado() ?><br/>
+         
      </td>
    <td>
        <font size="4">Dado 2:</font><br/>
@@ -144,43 +141,28 @@ $menu=array(
         </td>
    <td>
         <label>Dado 1</label>
-      <input type="text" class="form-control" >
+      <input type="text" class="form-control" id="dados1">
       
       <!-- radio -->
         <div class="radio">
               <label>
-                <input type="radio" name="opciones" id="opciones_1" value="+" checked>
-                +
+                <input type="radio" name="operacion" id="operacion1" value="+" checked>+&nbsp;&nbsp;&nbsp;&nbsp;
               </label>
               <label>
-                <input type="radio" name="opciones" id="opciones_2" value="-">
+                <input type="radio" name="operacion" id="operacion2" value="-">
                -
               </label>
               
         </div>
        <!-- -->
         <label>Dado 2</label>
-      <input type="text" class="form-control" >
+      <input type="text" class="form-control" id="dados2">
        <br/>
-       <button type="submit" class="btn btn-default">Submit</button>
+       <button type="submit" class="btn btn-default">Resultado</button>
        
-       
-       
-        <!-- Pruebas, pasar informacion a resultado -->
-        
-        <a href="resultado.php?nombre=Jonathan">Link resultado</a>
-        
-        
-        <!-- -->
-        
-        
-        
+  
    </td>  
-        
-        
     </tr>
-    
-      
   </form> 
 </table>
 
