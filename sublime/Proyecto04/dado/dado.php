@@ -19,7 +19,10 @@
 			}
 			
 			$valor1=lanzarDado();
-            $valor2=lanzarDado();
+      $valor2=lanzarDado();
+      $valor3=lanzarDado();
+      $valor4=lanzarDado();
+      $valor5=lanzarDado();
 
 	   
 		?>
@@ -29,8 +32,12 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-2"><img src='../dado/imgs/<?=$valor1?>.png'></div>
-    <div class="col-sm-4"><img src='../dado/imgs/<?=$valor2?>.png'></div>
-    <div class="col-sm-4">
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor2?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor3?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor4?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor5?>.png'></div>
+    
+    <div class="col-sm-2" style="position: fixed; padding: 10em">
         
       <form action="resultado.php?valor1=$option" style="margin-top:50px; margin-left:30px;border-radius: 19px 134px 27px 17px;
 -moz-border-radius: 19px 134px 27px 17px;

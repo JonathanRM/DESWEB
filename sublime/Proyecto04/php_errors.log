@@ -1,0 +1,135 @@
+[19-Oct-2015 07:15:00 UTC] PHP Fatal error:  Cannot redeclare lanzarDado() (previously declared in /home/ubuntu/workspace/sublime/Proyecto01/dado/dado.php:5) in /home/ubuntu/workspace/sublime/Proyecto01/dado/dado.php on line 5
+[19-Oct-2015 07:15:00 UTC] PHP Stack trace:
+[19-Oct-2015 07:15:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
+[19-Oct-2015 07:15:00 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3
+[19-Oct-2015 08:36:02 UTC] PHP Fatal error:  Call to undefined function lanzarDado3caras() in /home/ubuntu/workspace/sublime/Proyecto01/menu/configuracion.php on line 193
+[19-Oct-2015 08:36:02 UTC] PHP Stack trace:
+[19-Oct-2015 08:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
+[19-Oct-2015 08:36:02 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3
+[19-Oct-2015 08:36:05 UTC] PHP Fatal error:  Call to undefined function lanzarDado3caras() in /home/ubuntu/workspace/sublime/Proyecto01/menu/configuracion.php on line 193
+[19-Oct-2015 08:36:05 UTC] PHP Stack trace:
+[19-Oct-2015 08:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:0
+[19-Oct-2015 08:36:05 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto01/menu/index.php:3
+[22-Oct-2015 11:18:43 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:18:43 UTC] PHP Stack trace:
+[22-Oct-2015 11:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:18:43 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:18:55 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:18:55 UTC] PHP Stack trace:
+[22-Oct-2015 11:18:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:18:55 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:20:17 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:20:17 UTC] PHP Stack trace:
+[22-Oct-2015 11:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:20:17 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:21:03 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:21:03 UTC] PHP Stack trace:
+[22-Oct-2015 11:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:21:03 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:21:13 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:21:13 UTC] PHP Stack trace:
+[22-Oct-2015 11:21:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:21:13 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:22:15 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:22:15 UTC] PHP Stack trace:
+[22-Oct-2015 11:22:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:22:15 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:29:05 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:29:05 UTC] PHP Stack trace:
+[22-Oct-2015 11:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:29:05 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:29:41 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:29:41 UTC] PHP Stack trace:
+[22-Oct-2015 11:29:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:29:41 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[22-Oct-2015 11:29:41 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 7
+[22-Oct-2015 11:29:41 UTC] PHP Stack trace:
+[22-Oct-2015 11:29:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:0
+[22-Oct-2015 11:29:41 UTC] PHP   2. print_r() /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php:7
+[23-Oct-2015 09:17:50 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:17:50 UTC] PHP Stack trace:
+[23-Oct-2015 09:17:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:18:20 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:18:20 UTC] PHP Stack trace:
+[23-Oct-2015 09:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:19:03 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:19:03 UTC] PHP Stack trace:
+[23-Oct-2015 09:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:19:05 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 52
+[23-Oct-2015 09:19:05 UTC] PHP Stack trace:
+[23-Oct-2015 09:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:23 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:35 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[23-Oct-2015 09:30:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 86
+[23-Oct-2015 09:30:38 UTC] PHP Stack trace:
+[23-Oct-2015 09:30:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:38:09 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 07:38:09 UTC] PHP Stack trace:
+[26-Oct-2015 07:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:38:09 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 07:38:09 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:144
+[26-Oct-2015 07:39:01 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 07:39:01 UTC] PHP Stack trace:
+[26-Oct-2015 07:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 07:39:01 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 07:39:01 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:144
+[26-Oct-2015 09:30:35 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:35 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:35 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:35 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:30:41 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:41 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:41 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:41 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:30:43 UTC] PHP Fatal error:  Cannot redeclare lanzarDado2() (previously declared in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php:41) in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 41
+[26-Oct-2015 09:30:43 UTC] PHP Stack trace:
+[26-Oct-2015 09:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[26-Oct-2015 09:30:43 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:3
+[26-Oct-2015 09:30:43 UTC] PHP   3. lanzarDado() /home/ubuntu/workspace/sublime/Proyecto03/menu/configuracion.php:140
+[26-Oct-2015 09:38:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sublime/Proyecto03/dado/dado.php on line 20
+[26-Oct-2015 09:38:56 UTC] PHP Stack trace:
+[26-Oct-2015 09:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto03/menu/index.php:0
+[29-Oct-2015 11:28:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 41
+[29-Oct-2015 11:32:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sublime/Proyecto03/menu/resultado.php on line 39
+[05-Nov-2015 11:38:33 UTC] PHP Warning:  include(Jugador): failed to open stream: No such file or directory in /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php on line 2
+[05-Nov-2015 11:38:33 UTC] PHP Stack trace:
+[05-Nov-2015 11:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php:0
+[05-Nov-2015 11:38:33 UTC] PHP Warning:  include(): Failed opening 'Jugador' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php on line 2
+[05-Nov-2015 11:38:33 UTC] PHP Stack trace:
+[05-Nov-2015 11:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php:0
+[05-Nov-2015 11:38:33 UTC] PHP Fatal error:  Class 'Jugador' not found in /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php on line 9
+[05-Nov-2015 11:38:33 UTC] PHP Stack trace:
+[05-Nov-2015 11:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador - OBJETOS ejemplo/index.php:0
+[05-Nov-2015 11:39:23 UTC] PHP Warning:  include(Jugador): failed to open stream: No such file or directory in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 11:39:23 UTC] PHP Stack trace:
+[05-Nov-2015 11:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 11:39:23 UTC] PHP Warning:  include(): Failed opening 'Jugador' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 11:39:23 UTC] PHP Stack trace:
+[05-Nov-2015 11:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 11:39:23 UTC] PHP Fatal error:  Class 'Jugador' not found in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 9
+[05-Nov-2015 11:39:23 UTC] PHP Stack trace:
+[05-Nov-2015 11:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 11:40:15 UTC] PHP Warning:  include(Jugador): failed to open stream: No such file or directory in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 11:40:15 UTC] PHP Stack trace:
+[05-Nov-2015 11:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 11:40:15 UTC] PHP Warning:  include(): Failed opening 'Jugador' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 11:40:15 UTC] PHP Stack trace:
+[05-Nov-2015 11:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 11:40:15 UTC] PHP Fatal error:  Class 'Jugador' not found in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 9
+[05-Nov-2015 11:40:15 UTC] PHP Stack trace:
+[05-Nov-2015 11:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 12:36:31 UTC] PHP Warning:  include(Jugador): failed to open stream: No such file or directory in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 12:36:31 UTC] PHP Stack trace:
+[05-Nov-2015 12:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 12:36:31 UTC] PHP Warning:  include(): Failed opening 'Jugador' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 2
+[05-Nov-2015 12:36:31 UTC] PHP Stack trace:
+[05-Nov-2015 12:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
+[05-Nov-2015 12:36:31 UTC] PHP Fatal error:  Class 'Jugador' not found in /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php on line 9
+[05-Nov-2015 12:36:31 UTC] PHP Stack trace:
+[05-Nov-2015 12:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Proyecto04/Jugador-OBJETOSejemplo/index.php:0
