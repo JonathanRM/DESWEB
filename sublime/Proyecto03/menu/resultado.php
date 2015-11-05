@@ -16,8 +16,8 @@
                 $resultado=$dado1+$dado2;
                 print("Resultado: " .$dado1." ".$operacion." ".$dado2." = ".$resultado);
             }else{
-                $resultado=$dado1-$dado2;
-                print("Resultado: " .$dado1." ".$operacion." ".$dado2." = ".$resultado);
+                $resultado=($dado1-$dado2)*-1;
+                print("Operacion: " .$dado1." ".$operacion." ".$dado2." = ".$resultado);
             }
           
         }else{
