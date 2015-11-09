@@ -16,6 +16,7 @@
 			function lanzarDado(){
 				$numero=rand(1, 6);
 				return $numero;
+				
 			}
 			
 			$valor1=lanzarDado();
@@ -23,7 +24,15 @@
       $valor3=lanzarDado();
       $valor4=lanzarDado();
       $valor5=lanzarDado();
+      
 
+      function lanzarDadoDodecaedro(){
+				$numero=rand(1, 6);
+				return $numero;
+				
+			}
+			
+		
 	   
 		?>
 		

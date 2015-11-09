@@ -3,8 +3,8 @@
 <?php 
       include 'configuracion.php';
       include '../dado/dado.php';  // Incluir ruta de la funcion de lanzarDado
-     
     ?>
+    
 <!DOCTYPE html>
 <link rel="stylesheet" href="../dado/css/estilos.css">
 <html>
@@ -22,5 +22,6 @@
   
   <img src="../dado/imgs/wallpaper.jpg" id="fondo"/>
 </head>
+
 
 </html>
