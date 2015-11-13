@@ -51,7 +51,7 @@ $menu=array(
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#"><?php echo $menu['portada'][$lang]?></a></li><!-- Mostrar inicio de php -->
+        <li class="active"><a href="index.php"><?php echo $menu['portada'][$lang]?></a></li><!-- Mostrar inicio de php -->
   <!---->      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $menu['tiposJuego'][$lang]?><span class="caret"></span></a><!-- Mostrar tipos de juego de php -->
           <ul class="dropdown-menu"> 
           
@@ -70,7 +70,7 @@ $menu=array(
                     } ?>
                   </ul>
    <!----></li>
-        <li><a href="#"><?php echo $menu['instrucciones'][$lang]?></a></li>
+        <li><a href="instrucciones.php"><?php echo $menu['instrucciones'][$lang]?></a></li>
       
     </li>
       </ul>

@@ -39,28 +39,67 @@
 		
 		
 <div class="container">
-  <div class="row">
-    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor1?>.png'></div>
-    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor2?>.png'></div>
-    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor3?>.png'></div>
-    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor4?>.png'></div>
-    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor5?>.png'></div>
+  
+  
+  
+  <div class="container-fluid" style="text-align: center;"><div class="row"><div class="col-md-2">
     
-    <div class="col-sm-2" style="position: fixed; padding: 10em">
-        
-      <form action="resultado.php?valor1=$option" style="margin-top:50px; margin-left:30px;border-radius: 19px 134px 27px 17px;
--moz-border-radius: 19px 134px 27px 17px;
--webkit-border-radius: 19px 134px 27px 17px;
-border: 1px inset #403f3e; padding:1em; background-color: silver; overflow: hidden; width: 325px; height: 260px;
+      <form action="#" style="width: 400px; height: 200px; padding: 10px 40px 0px 40px;
+       
+     border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
 
-background: rgba(226,226,226,1);
-background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 8%, rgba(209,209,209,1) 39%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 88%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(8%, rgba(219,219,219,1)), color-stop(39%, rgba(209,209,209,1)), color-stop(80%, rgba(254,254,254,1)), color-stop(88%, rgba(254,254,254,1)));
-background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 8%, rgba(209,209,209,1) 39%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 88%);
-background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 8%, rgba(209,209,209,1) 39%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 88%);
-background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 8%, rgba(209,209,209,1) 39%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 88%);
-background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 8%, rgba(209,209,209,1) 39%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 88%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );-webkit-box-shadow: 13px 10px 38px 6px rgba(0,0,0,0.75);" >
+-webkit-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+
+
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(49%, rgba(42,185,229,0.72)), color-stop(55%, rgba(41,184,229,0.69)), color-stop(65%, rgba(74,193,231,0.63)), color-stop(100%, rgba(188,224,238,0.63)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );" >
+         
+          <img src="../dado/imgs/player1.png" width="75" height="75" align="left"/>
+        <br>
+        <b><font color="#D0D0D0" size="4">Nombre  </font></b><br><input type="text" name="nombreJugador" align="right" disabled/>
+        <br>
+        <br><img src="../dado/imgs/star.png" width="75" height="75" align="left"/>
+        <br>
+       <b><font color="#D0D0D0"  size="4">Puntuacion  </font></b><br> <input type="text" name="scoreJugador" align="right" disabled/>
+        <br>
+        <br>
+         </form>
+         
+         
+    
+  </div>
+  <div class="col-md-2">
+     <form action="resultado.php?valor1=$option" style="margin-left: 300px ;width: 400px; height: 250px; padding: 10px 40px 0px 40px;
+       
+     border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+
+-webkit-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+
+
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(49%, rgba(42,185,229,0.72)), color-stop(55%, rgba(41,184,229,0.69)), color-stop(65%, rgba(74,193,231,0.63)), color-stop(100%, rgba(188,224,238,0.63)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );" >
         
         <label>
           Operación de los dados 
@@ -79,8 +118,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
         <br>
         <br>
         <input type="submit" class="btn btn-primary" name="submit" value="Resultado"/>
+    </form>
+    
+    
+  </div>
+  
+  </div></div>
+       
+    
+    
+  <div class="row">
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor1?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor2?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor3?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor4?>.png'></div>
+    <div class="col-sm-2"><img src='../dado/imgs/<?=$valor5?>.png'></div>
+    
+    <div class="col-sm-2" style="position: fixed; padding: 10em">
         
-      </form>
+    
+     
+     
+     
+      
+      
+      
+      
       
     </div>
   </div>

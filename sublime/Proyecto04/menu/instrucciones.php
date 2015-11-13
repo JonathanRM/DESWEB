@@ -28,7 +28,7 @@
        
             <br>
         <br> <center>
-       <form action="#" style="width: 700px; height: 500px; padding: 30px;
+       <form action="#" style="width: 700px; height: 530px; padding: 30px;
        
      border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
@@ -49,7 +49,7 @@ background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.
 background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );" >
            
-           <h1>INSTRUCCIONES</h1>
+           <h1><img src="../dado/imgs/information.png" width="150" height="150" align="left"/><font size="6"><i>INSTRUCCIONES</i></font></h1>
            
            <br>
            
@@ -63,6 +63,7 @@ Edades: 6 años en adelante
 
 </p>
 
+           <br>
 <h2>Tablero</h2>
               
            <p  align="left">El tablero es muy sencillo. Se trata de un camino de 15 espacios (sin contar la salida).  En el tablero encontrarás dos espacios marcados como llegada.  El primero es para un juego más corto, ideal para niños más pequeños. El segundo espacio es para los que quieren un mayor reto y desean jugar un juego más largo.
