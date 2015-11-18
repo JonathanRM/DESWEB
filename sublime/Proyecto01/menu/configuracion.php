@@ -1,7 +1,16 @@
 <?php
 
 //Array multilenguaje			// MENU en PHP // Jonathan
-$lang="sp";
+
+
+
+if ( ($_GET['$lang'] == null)||(strlen($_GET['$lang'])==0)){
+    $lang="sp";
+}else{
+    $lang=$_GET['$lang'];
+}
+
+
 
 $menu=array(
 	"titulo"=>array(

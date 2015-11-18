@@ -44,7 +44,7 @@
   
   <div class="container-fluid" style="text-align: center;"><div class="row"><div class="col-md-2">
     
-      <form action="#" style="width: 400px; height: 200px; padding: 10px 40px 0px 40px;
+      <form action="#" style="width: 350px; height: 220px; padding: 10px 40px 0px 40px;
        
      border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
@@ -80,7 +80,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
     
   </div>
   <div class="col-md-2">
-     <form action="resultado.php?valor1=$option" style="margin-left: 300px ;width: 400px; height: 250px; padding: 10px 40px 0px 40px;
+     <form action="resultado.php?valor1=$option" style="margin-left: 300px ;width: 340px; height: 220px; padding: 10px 40px 20px 40px;
        
      border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
@@ -101,24 +101,22 @@ background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.
 background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );" >
         
-        <label>
-          Operación de los dados 
-        </label>  
+          
         <br>
-        Dado 1:  <br><input type="text" name="dado1"/>
-        <br>
-        <br>
+        <font color="#D0D0D0" size="4">Dado 1:  </font><input type="text" name="dado1"/><br>
+        
+        <br><font color="#D0D0D0" size="4">
         <input type="radio" name="operacion" value="+"/>&nbsp;+ &nbsp;
         <input type="radio" name="operacion" value="-"/>&nbsp;-&nbsp;
         <input type="hidden" name="valor1oculto" value="<?=$valor1;?>"/>
         <input type="hidden" name="valor2oculto" value="<?=$valor2;?>"/>
         <br>
+        <br></font>
+       <font color="#D0D0D0" size="4"> Dado 2:</font> <input type="text" name="dado2"/>
         <br>
-        Dado 2: <br> <input type="text" name="dado2"/>
         <br>
-        <br>
-        <input type="submit" class="btn btn-primary" name="submit" value="Resultado"/>
-    </form>
+        <input type="submit" class="btn-success" name="submit" value="Resultado"/>
+    </form><br>
     
     
   </div>

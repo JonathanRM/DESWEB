@@ -1,0 +1,125 @@
+.estiloletra{
+    font-size: 15px;
+    color: #F0F0F0 ;
+}
+
+.formularioInicio{
+        width: 420px; height: 250px; padding: 20px 40px 0px 40px;
+           
+         border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    
+    -webkit-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    
+    
+    background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(49%, rgba(42,185,229,0.72)), color-stop(55%, rgba(41,184,229,0.69)), color-stop(65%, rgba(74,193,231,0.63)), color-stop(100%, rgba(188,224,238,0.63)));
+    background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+}
+
+.formularioUser{
+        width: 200px; height: 200px; padding: 10px 40px 0px 40px;
+           
+         border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    
+    -webkit-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 74px -8px rgba(0,0,0,0.75);
+    
+    
+    background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(49%, rgba(42,185,229,0.72)), color-stop(55%, rgba(41,184,229,0.69)), color-stop(65%, rgba(74,193,231,0.63)), color-stop(100%, rgba(188,224,238,0.63)));
+    background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+}
+
+.logo{
+    
+    width: 600px;
+    position: absolute;
+    top: 20%; 
+    left: 48%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button{
+        text-decoration:none; text-align:center; 
+     padding:17px 79px; 
+     border:double 3px #e6eef2; 
+     -webkit-border-radius:37px;
+     -moz-border-radius:37px; 
+     border-radius: 37px; 
+     font:26px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+     font-weight:bold; 
+     color:#E5FFFF; 
+     background-color:#6dabbf; 
+     background-image: -moz-linear-gradient(top, #6dabbf 0%, #48bd77 100%); 
+     background-image: -webkit-linear-gradient(top, #6dabbf 0%, #48bd77 100%); 
+     background-image: -o-linear-gradient(top, #6dabbf 0%, #48bd77 100%); 
+     background-image: -ms-linear-gradient(top, #6dabbf 0% ,#48bd77 100%); 
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bd77', endColorstr='#48bd77',GradientType=0 ); 
+     background-image: linear-gradient(top, #6dabbf 0% ,#48bd77 100%);   
+     -webkit-box-shadow:0px 0px -1px #ffffff, inset 0px 0px 1px #ffffff; 
+     -moz-box-shadow: 0px 0px -1px #ffffff,  inset 0px 0px 1px #ffffff;  
+     box-shadow:0px 0px -1px #ffffff, inset 0px 0px 1px #ffffff;  
+      
+       -webkit-transition: all 0s linear;
+     -moz-transition:  all 0s linear;
+     -o-transition:  all 0s linear;
+     transition:  all 0s linear;}.button:hover{
+     padding:17px 79px; 
+     border:double 3px #e6eef2; 
+     -webkit-border-radius:36px;
+     -moz-border-radius:36px; 
+     border-radius: 36px; 
+     font:26px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+     font-weight:bold; 
+     color:#E5FFFF; 
+     background-color:#61e8cb; 
+     background-image: -moz-linear-gradient(top, #61e8cb 0%, #37b03b 100%); 
+     background-image: -webkit-linear-gradient(top, #61e8cb 0%, #37b03b 100%); 
+     background-image: -o-linear-gradient(top, #61e8cb 0%, #37b03b 100%); 
+     background-image: -ms-linear-gradient(top, #61e8cb 0% ,#37b03b 100%); 
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b03b', endColorstr='#37b03b',GradientType=0 ); 
+     background-image: linear-gradient(top, #61e8cb 0% ,#37b03b 100%);   
+     -webkit-box-shadow:0px 0px -1px #ffffff, inset 0px 0px 1px #ffffff; 
+     -moz-box-shadow: 0px 0px -1px #ffffff,  inset 0px 0px 1px #ffffff;  
+     box-shadow:0px 0px -1px #ffffff, inset 0px 0px 1px #ffffff;  
+  
+ }
+ 
+body{
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.positionDivForm{
+    
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+
+}

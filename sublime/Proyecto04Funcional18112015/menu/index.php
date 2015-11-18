@@ -66,7 +66,11 @@ background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.7
 background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
 background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(42,185,229,0.72) 49%, rgba(41,184,229,0.69) 55%, rgba(74,193,231,0.63) 65%, rgba(188,224,238,0.63) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );" >
-           
+          
+          
+          
+          
+    
        <img src="../dado/imgs/player1.png" width="75" height="75" align="left"/>
         <br>
         <b><font color="#D0D0D0" size="4">Nombre  </font></b><br><input type="text" name="nombreJugador" align="right"/>
