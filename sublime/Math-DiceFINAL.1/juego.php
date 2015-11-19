@@ -5,7 +5,7 @@
 ?>
 <html>
     <head>
-        <title>Math Dice - Online</title>
+        <title>Math Dice - Juego</title>
         <meta charset="UTF-8">
         
         
@@ -16,7 +16,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/dado.css">
     
       <!--------->
     </head>
@@ -31,7 +30,7 @@
         
         <div class='container'>
 
-        <form role="form" action="resultado.php" method="post"> <!-- Comprobacion del valor -->
+        <form role="form" action="resultado.php" method="post" class="formularioPrincipalDados"> <!-- Comprobacion del valor -->
           
             <div class="row">
                 <div class='col-xs-12'><h1><font color="white">Dados</font></h1></div>

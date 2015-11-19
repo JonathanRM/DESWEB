@@ -58,7 +58,9 @@
                             </select>
                                <br><br>
                           <label for="submit" ></label><br>
-                          <button id="submit" name="submit" class="button">¡Jugar!</button></td>
+                          <button id="submit" name="submit" class="button">Jugar</button>&nbsp;
+                          <a href="instrucciones.php" class="button">Instrucciones</a>
+                          
 
                 </fieldset>
             </form>
