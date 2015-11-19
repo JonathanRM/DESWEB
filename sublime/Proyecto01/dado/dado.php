@@ -5,7 +5,6 @@
     function lanzarDado(){
         $numero = rand(1,6);
         
-        
         switch($numero){
             case 0:
                 

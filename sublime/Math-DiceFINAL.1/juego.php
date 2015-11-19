@@ -42,21 +42,21 @@
                 <div class='col-xs-7'>
                 
                 <?php 
-                    dado5caras(1);
-                    dado5caras(2);
-                    dado5caras(3);
+                    dado5caras(1); // dado1
+                    dado5caras(2); // dado2
+                    dado5caras(3); // dado3
                         
-                    dado3caras(1); //
-                    dado3caras(2); //
+                    dado3caras(4); // dado4
+                    dado3caras(5); // dado5
                     
-                    dado12caras(1);
+                    dado12caras(6); //dado6
                 ?>
                 
                 </div>
                 <div class='col-xs-3'>
                 <div class="form-group">
                     <label for="text"><font color="white">Dado 1</font></label><br>
-                    <input type="text" size="1" name="eligeDado"><input type="text" name="num1" id="text">
+                    <input type="text" size="1" name="eligeDado1"><input type="text" name="num1" id="text">
                 </div>
           
                 <div class="radio">
@@ -66,7 +66,7 @@
           
                 <div class="form-group">
                      <label for="text"><font color="white">Dado 2</font></label><br>
-                     <input type="text" size="1" name="eligeDado"><input type="text" name="num2">
+                     <input type="text" size="1" name="eligeDado2"><input type="text" name="num2">
                 </div>
                 
                 <button type="submit" class="btn btn-default">Calcular</button>

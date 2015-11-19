@@ -25,10 +25,11 @@
     <body>
         
     <?php
-
     include 'lib/menu.php';
-    echo compruebaDado($_POST['dado1'], $_POST['dado2'], $_POST['num1'], $_POST['signo'], $_POST['num2']); 
-    // comprueba suma y resta del nº de los dados
+    
+    echo compruebaPosicionDadoConNumero($_POST['dado1'], $_POST['dado2'], $_POST['dado3'], $_POST['dado4'], $_POST['dado5'], $_POST['dado6'], $_POST['dado7'], 
+    $_POST['eligeDado1'], $_POST['eligeDado2'], $_POST['signo'], $_POST['num1'], $_POST['num2']); 
+    
     
     ?>
     
