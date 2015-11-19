@@ -414,3 +414,19 @@
 [19-Nov-2015 20:15:01 UTC] PHP Stack trace:
 [19-Nov-2015 20:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:0
 [19-Nov-2015 20:15:01 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:26
+[19-Nov-2015 20:17:11 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/lib/menuUsuario.php on line 5
+[19-Nov-2015 20:17:11 UTC] PHP Stack trace:
+[19-Nov-2015 20:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:0
+[19-Nov-2015 20:17:11 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:26
+[19-Nov-2015 20:17:26 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/lib/menuUsuario.php on line 5
+[19-Nov-2015 20:17:26 UTC] PHP Stack trace:
+[19-Nov-2015 20:17:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:0
+[19-Nov-2015 20:17:26 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:26
+[19-Nov-2015 20:23:12 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/lib/menuUsuario.php on line 5
+[19-Nov-2015 20:23:12 UTC] PHP Stack trace:
+[19-Nov-2015 20:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:0
+[19-Nov-2015 20:23:12 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:26
+[19-Nov-2015 20:23:27 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/lib/menuUsuario.php on line 5
+[19-Nov-2015 20:23:27 UTC] PHP Stack trace:
+[19-Nov-2015 20:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:0
+[19-Nov-2015 20:23:27 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.1/juego.php:26

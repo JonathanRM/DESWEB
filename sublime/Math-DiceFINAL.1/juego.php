@@ -38,7 +38,7 @@
             
             <div class="container-fluid">
              <div class="row">
-                <div class='col-xs-7'>
+                <div class='col-xs-9'>
                 
                 <?php 
                     dado5caras(1); // dado1
@@ -55,7 +55,7 @@
                 <div class='col-xs-3'>
                 <div class="form-group">
                     <label for="text"><font color="white">Dado 1</font></label><br>
-                    <input type="text" size="1" name="eligeDado1"><input type="text" name="num1" id="text">
+                    <input type="text" size="1" name="eligeDado1"><input type="text" name="num1" id="text" size="2">
                 </div>
           
                 <div class="radio">
@@ -65,7 +65,7 @@
           
                 <div class="form-group">
                      <label for="text"><font color="white">Dado 2</font></label><br>
-                     <input type="text" size="1" name="eligeDado2"><input type="text" name="num2">
+                     <input type="text" size="1" name="eligeDado2"><input type="text" name="num2" size="2">
                 </div>
                 
                 <button type="submit" class="btn btn-default">Calcular</button>
