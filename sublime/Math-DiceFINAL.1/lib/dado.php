@@ -25,7 +25,7 @@
             
         echo '<div class="col-xs-3"><img class="dado" src="img/'.$arr1[$numAleatorio].'"></img></div>';
        
-        echo '<input type="hidden" name="dodecaedro'.$num.'" value="'.$numAleatorioMas1.'">';
+        echo '<input type="hidden" name="dado'.$num.'" value="'.$numAleatorioMas1.'">';
         
     }
     
