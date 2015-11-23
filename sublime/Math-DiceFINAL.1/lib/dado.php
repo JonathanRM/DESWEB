@@ -45,11 +45,11 @@
     }
     
     
-    function compruebaPosicionDadoConNumero($dado1, $dado2, $dado3, $dado4, $dado5, $dado6, $dado7, $eligeDado1, $eligeDado2, $signo, $num1, $num2){ 
+    function compruebaPosicionDadoConNumero($dado1, $dado2, $dado3, $dado4, $dado5, $dado6, $eligeDado1, $eligeDado2, $signo, $num1, $num2){ 
     
         
         if($dado1 == $eligeDado1 && $dado1 == $eligeDado2 || $dado1 == $eligeDado1 && $dado2 == $eligeDado2 || $dado1 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado1 == $eligeDado1 && $dado4 == $eligeDado2  || $dado1 == $eligeDado1 && $dado5 == $eligeDado2 || $dado1 == $eligeDado1 && $dado6 == $eligeDado2 || $dado1 == $eligeDado1 && $dado7 == $eligeDado2){
+        || $dado1 == $eligeDado1 && $dado4 == $eligeDado2  || $dado1 == $eligeDado1 && $dado5 == $eligeDado2 || $dado1 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -61,7 +61,7 @@
         }
         
        if($dado2 == $eligeDado1 && $dado1 == $eligeDado2 || $dado2 == $eligeDado1 && $dado2 == $eligeDado2 || $dado2 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado1 == $eligeDado1 && $dado4 == $eligeDado2  || $dado2 == $eligeDado1 && $dado5 == $eligeDado2 || $dado2 == $eligeDado1 && $dado6 == $eligeDado2 || $dado2 == $eligeDado1 && $dado7 == $eligeDado2){
+        || $dado1 == $eligeDado1 && $dado4 == $eligeDado2  || $dado2 == $eligeDado1 && $dado5 == $eligeDado2 || $dado2 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -73,7 +73,7 @@
         } 
         
         if($dado3 == $eligeDado1 && $dado1 == $eligeDado2 || $dado3 == $eligeDado1 && $dado2 == $eligeDado2 || $dado3 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado3 == $eligeDado1 && $dado4 == $eligeDado2  || $dado3 == $eligeDado1 && $dado5 == $eligeDado2 || $dado3 == $eligeDado1 && $dado6 == $eligeDado2 || $dado3 == $eligeDado1 && $dado7 == $eligeDado2){
+        || $dado3 == $eligeDado1 && $dado4 == $eligeDado2  || $dado3 == $eligeDado1 && $dado5 == $eligeDado2 || $dado3 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -84,8 +84,8 @@
             }
         } 
         
-         if($dado4 == $eligeDado1 && $dado1 == $eligeDado2 || $dado4 == $eligeDado1 && $dado2 == $eligeDado2 || $dado4 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado4 == $eligeDado2  || $dado4 == $eligeDado1 && $dado5 == $eligeDado2 || $dado4 == $eligeDado1 && $dado6 == $eligeDado2 || $dado4 == $eligeDado1 && $dado7 == $eligeDado2){
+          if($dado4 == $eligeDado1 && $dado1 == $eligeDado2 || $dado4 == $eligeDado1 && $dado2 == $eligeDado2 || $dado4 == $eligeDado1 && $dado3 == $eligeDado2 
+        || $dado4 == $eligeDado1 && $dado4 == $eligeDado2  || $dado4 == $eligeDado1 && $dado5 == $eligeDado2 || $dado4 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -94,10 +94,10 @@
                 $resta = $num1 - $num2;
                 return "Correcto, la resta de ".$num1." - ".$num2." es: ".$resta;
             }
-        } 
+        }
         
           if($dado5 == $eligeDado1 && $dado1 == $eligeDado2 || $dado5 == $eligeDado1 && $dado2 == $eligeDado2 || $dado5 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado5 == $eligeDado1 && $dado4 == $eligeDado2  || $dado5 == $eligeDado1 && $dado5 == $eligeDado2 || $dado5 == $eligeDado1 && $dado6 == $eligeDado2 || $dado5 == $eligeDado1 && $dado7 == $eligeDado2){
+        || $dado5 == $eligeDado1 && $dado4 == $eligeDado2  || $dado5 == $eligeDado1 && $dado5 == $eligeDado2 || $dado5 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -109,7 +109,7 @@
         } 
         
          if($dado6 == $eligeDado1 && $dado1 == $eligeDado2 || $dado6 == $eligeDado1 && $dado2 == $eligeDado2 || $dado6 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado6 == $eligeDado1 && $dado4 == $eligeDado2  || $dado6 == $eligeDado1 && $dado5 == $eligeDado2 || $dado6 == $eligeDado1 && $dado6 == $eligeDado2 || $dado6 == $eligeDado1 && $dado7 == $eligeDado2){
+        || $dado6 == $eligeDado1 && $dado4 == $eligeDado2  || $dado6 == $eligeDado1 && $dado5 == $eligeDado2 || $dado6 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -125,7 +125,7 @@
         //
         
         if($dado1 == $eligeDado1 && $dado1 == $eligeDado2 || $dado2 == $eligeDado1 && $dado1 == $eligeDado2 || $dado3 == $eligeDado1 && $dado1 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado1 == $eligeDado2  || $dado5 == $eligeDado1 && $dado1 == $eligeDado2 || $dado6 == $eligeDado1 && $dado1 == $eligeDado2 || $dado7 == $eligeDado1 && $dado1 == $eligeDado2){
+        || $dado4 == $eligeDado1 && $dado1 == $eligeDado2  || $dado5 == $eligeDado1 && $dado1 == $eligeDado2 || $dado6 == $eligeDado1 && $dado1 == $eligeDado2 ){
             if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -137,7 +137,7 @@
         }
         
          if($dado1 == $eligeDado1 && $dado2 == $eligeDado2 || $dado2 == $eligeDado1 && $dado2 == $eligeDado2 || $dado3 == $eligeDado1 && $dado2 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado2 == $eligeDado2  || $dado5 == $eligeDado1 && $dado2 == $eligeDado2 || $dado6 == $eligeDado1 && $dado2 == $eligeDado2 || $dado7 == $eligeDado1 && $dado2 == $eligeDado2){
+        || $dado4 == $eligeDado1 && $dado2 == $eligeDado2  || $dado5 == $eligeDado1 && $dado2 == $eligeDado2 || $dado6 == $eligeDado1 && $dado2 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -149,7 +149,7 @@
         }
         
          if($dado1 == $eligeDado1 && $dado3 == $eligeDado2 || $dado2 == $eligeDado1 && $dado3 == $eligeDado2 || $dado3 == $eligeDado1 && $dado3 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado3 == $eligeDado2  || $dado5 == $eligeDado1 && $dado3 == $eligeDado2 || $dado6 == $eligeDado1 && $dado3 == $eligeDado2 || $dado7 == $eligeDado1 && $dado3 == $eligeDado2){
+        || $dado4 == $eligeDado1 && $dado3 == $eligeDado2  || $dado5 == $eligeDado1 && $dado3 == $eligeDado2 || $dado6 == $eligeDado1 && $dado3 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -161,7 +161,7 @@
         }
         
          if($dado1 == $eligeDado1 && $dado4 == $eligeDado2 || $dado2 == $eligeDado1 && $dado4 == $eligeDado2 || $dado3 == $eligeDado1 && $dado4 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado4 == $eligeDado2  || $dado5 == $eligeDado1 && $dado4 == $eligeDado2 || $dado6 == $eligeDado1 && $dado4 == $eligeDado2 || $dado7 == $eligeDado1 && $dado4 == $eligeDado2){
+        || $dado4 == $eligeDado1 && $dado4 == $eligeDado2  || $dado5 == $eligeDado1 && $dado4 == $eligeDado2 || $dado6 == $eligeDado1 && $dado4 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -172,8 +172,8 @@
             }
         }
         
-        if($dado1 == $eligeDado1 && $dado5 == $eligeDado2 || $dado2 == $eligeDado1 && $dado5 == $eligeDado2 || $dado3 == $eligeDado1 && $dado5 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado5 == $eligeDado2  || $dado5 == $eligeDado1 && $dado5 == $eligeDado2 || $dado6 == $eligeDado1 && $dado5 == $eligeDado2 || $dado7 == $eligeDado1 && $dado5 == $eligeDado2){
+          if($dado1 == $eligeDado1 && $dado5 == $eligeDado2 || $dado2 == $eligeDado1 && $dado5 == $eligeDado2 || $dado3 == $eligeDado1 && $dado5 == $eligeDado2 
+        || $dado4 == $eligeDado1 && $dado5 == $eligeDado2  || $dado5 == $eligeDado1 && $dado5 == $eligeDado2 || $dado6 == $eligeDado1 && $dado5 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -185,7 +185,7 @@
         }
         
          if($dado1 == $eligeDado1 && $dado6 == $eligeDado2 || $dado2 == $eligeDado1 && $dado6 == $eligeDado2 || $dado3 == $eligeDado1 && $dado6 == $eligeDado2 
-        || $dado4 == $eligeDado1 && $dado6 == $eligeDado2  || $dado5 == $eligeDado1 && $dado6 == $eligeDado2 || $dado6 == $eligeDado1 && $dado6 == $eligeDado2 || $dado7 == $eligeDado1 && $dado6 == $eligeDado2){
+        || $dado4 == $eligeDado1 && $dado6 == $eligeDado2  || $dado5 == $eligeDado1 && $dado6 == $eligeDado2 || $dado6 == $eligeDado1 && $dado6 == $eligeDado2 ){
              if($signo == "+"){
                 $suma = $num1 + $num2;
                 return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
@@ -196,28 +196,6 @@
             }
         }
         
-        
-    
-    }
-    
-    
-    
-    function compruebaDado($dado1, $dado2, $num1, $signo ,$num2){ 
-        // comprueba si los valores de los dados introducidos corresponden con al dado seleccionado (por defecto los 2 ultimos)
-        if($dado1 == $num1 && $dado2 == $num2){
-        
-            if($signo == "+"){
-                $suma = $num1 + $num2;
-                return "Correcto, la suma de ".$num1." + ".$num2." es: ".$suma;
-                
-            }else if($signo == "-"){
-                $resta = $num1 - $num2;
-                return "Correcto, la resta de ".$num1." - ".$num2." es: ".$resta;
-            }
-        }else{
-            return "Error, el dado1 o el dado 2 no son correctos.";
-            
-        }
         
     }
 ?>

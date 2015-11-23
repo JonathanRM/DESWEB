@@ -54,8 +54,8 @@
                 </div>
                 <div class='col-xs-3'>
                 <div class="form-group">
-                    <label for="text"><font color="white">Dado 1</font></label><br>
-                    <input type="text" size="1" name="eligeDado1"><input type="text" name="num1" id="text" size="2">
+                    <label for="text"><font color="white">Elige dado - Valor</font></label><br>
+                    <input type="text" size="1" name="eligeDado1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="num1" id="text" size="2">
                 </div>
           
                 <div class="radio">
@@ -64,8 +64,8 @@
                 </div>
           
                 <div class="form-group">
-                     <label for="text"><font color="white">Dado 2</font></label><br>
-                     <input type="text" size="1" name="eligeDado2"><input type="text" name="num2" size="2">
+                     <label for="text"><font color="white">Elige dado - Valor</font></label><br>
+                     <input type="text" size="1" name="eligeDado2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="num2" size="2">
                 </div>
                 
                 <button type="submit" class="btn btn-default">Calcular</button>
