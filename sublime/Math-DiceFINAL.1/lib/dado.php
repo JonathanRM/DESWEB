@@ -1,6 +1,6 @@
 <?php
 
-    function dado5caras($num){
+    function dado5caras($num){ // mostrar dado 6 caras
         $arr1=array(
             'dado1.png','dado2.png','dado3.png','dado4.png','dado5.png','dado6.png'
             );
@@ -15,7 +15,7 @@
     }
     
     
-     function dado12caras($num){
+     function dado12caras($num){ // mostrar dado 12 caras
         $arr1=array(
             'Dodecaedro1.png','Dodecaedro2.png','Dodecaedro3.png','Dodecaedro4.png','Dodecaedro5.png','Dodecaedro6.png','Dodecaedro7.png','Dodecaedro8.png','Dodecaedro9.png','Dodecaedro10.png','Dodecaedro11.png','Dodecaedro12.png',
             );
@@ -30,7 +30,7 @@
     }
     
     
-    function dado3caras($num){
+    function dado3caras($num){ // mostrar dado 3 caras
         $arr1=array(
             'dado1.png','dado2.png','dado3.png'
             );

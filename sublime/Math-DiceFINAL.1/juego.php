@@ -1,6 +1,6 @@
 <?php
-    include 'lib/dado.php';
-    include('auth.php'); // clase jugador
+    include 'lib/dado.php'; // dado.php incluye funciones, etc
+    include('auth.php'); // clase jugador autentificacion
 
 ?>
 <html>
@@ -22,8 +22,8 @@
     <body>
 
         <?php
-            include "lib/menu.php";
-            include "lib/menuUsuario.php";
+            include "lib/menu.php"; // importamos menu
+            include "lib/menuUsuario.php"; // importamos menu usuario
         ?>
   
       
@@ -33,7 +33,7 @@
         <form role="form" action="resultado.php" method="post" class="formularioPrincipalDados"> <!-- Comprobacion del valor -->
           
             <div class="row">
-                <div class='col-xs-12'><h1><font color="white">Dados</font></h1></div>
+                <div class='col-xs-12'><h1><font color="white">Dados</font></h1></div> <!-- panel dados imgs -->
             </div>
             
             <div class="container-fluid">
@@ -53,7 +53,7 @@
                 
                 </div>
                 <div class='col-xs-3'>
-                <div class="form-group">
+                <div class="form-group"> <!-- panel donde se escribe la información de los dados -->
                     <label for="text"><font color="white">Elige dado - Valor</font></label><br>
                     <input type="text" size="1" name="eligeDado1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="num1" id="text" size="2">
                 </div>

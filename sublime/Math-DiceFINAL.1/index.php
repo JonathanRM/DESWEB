@@ -1,8 +1,8 @@
 <?php
 
-    if(isset($_SESSION)){
+    if(isset($_SESSION)){  
       
-      session_destroy();
+      session_destroy();  // destruye toda la información asociada con la sesión actual.
     }
     
       if (ini_get("session.use_cookies")) { //borrar cookies
@@ -16,7 +16,7 @@
 ?>
 <html>
     <head>
-        <title>Math Dice - Online</title>
+        <title>Math Dice - Online</title> <!-- CSS, bootstrap, etc -->
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -28,14 +28,14 @@
         
         
 
-        <img class="logo" src="img/logobase.png"></img>
+        <img class="logo" src="img/logobase.png"></img> <!-- logo principal -->
 
 
 
+    
 
 
-
- <div class="positionDivForm">
+ <div class="positionDivForm"><!-- Formulario datos usuarios -->
         
             <form action="juego.php" method="post" class="formularioInicio">
                 <fieldset>

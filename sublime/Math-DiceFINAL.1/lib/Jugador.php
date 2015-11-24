@@ -1,6 +1,6 @@
 <?php
 
-class Jugador{
+class Jugador{ // clase para crear objeto Jugador cuando se necesite
    
     private $nombre;
     private $apellidos;

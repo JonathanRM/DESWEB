@@ -1,7 +1,7 @@
 
 <?php   
 
-// Comprueba el lenguaje
+// Comprueba el lenguaje (no implementado en ningun sitio aun)
 if ( ($_GET['$lang'] == null)||(strlen($_GET['$lang'])==0)){
     $lang="sp";
 }else{
@@ -9,7 +9,7 @@ if ( ($_GET['$lang'] == null)||(strlen($_GET['$lang'])==0)){
 }
 
 
-$menu=array(
+$menu=array( // menú
     "titulo"=>array(
         "sp"=>"<img src='img/logo1.png'>",
         "en"=>"<img src='img/logo1.png'>"

@@ -1,7 +1,7 @@
 
     
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index.css"> <!-- Pagina instrucciones -->
 <html>
   <head>
     
