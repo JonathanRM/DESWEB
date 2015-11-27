@@ -40,6 +40,10 @@ $menu=array( // menú
         "sp"=>"Contacto",
         "en"=>"Contact"
         ),
+        "perfil"=>array(
+        "sp"=>"Perfil",
+        "en"=>"Profile"
+        ),
     );
 ?>
         <nav class="navbar navbar-inverse">
@@ -70,8 +74,9 @@ $menu=array( // menú
                     }?>
                   </ul>
                 </li>
-                <li><a href="#"><?php echo $menu['instrucciones'][$lang]?></a></li>
+                <li><a href="instrucciones.php"><?php echo $menu['instrucciones'][$lang]?></a></li>
                 <li><a href="#"><?php echo $menu['contacto'][$lang]?></a></li>
+                <li><a href="perfil.php"><?php echo $menu['perfil'][$lang]?></a></li>
               </ul>
             </div>
           </div>
