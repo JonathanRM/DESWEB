@@ -1,7 +1,7 @@
 <?php
 require_once('lib/basedatos.php');
 
-$db = new BaseDatos();
+$db = new BaseDatos(); //lanzar conexion
 
 ?>
 <html>

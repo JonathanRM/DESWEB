@@ -1,5 +1,5 @@
 <?php
-
+             // datos conexion base de datos
  class BaseDatos{
      private $host="localhost";
      private $db="usuarios";
@@ -9,7 +9,7 @@
      
      
      // Constructor
-     function __construct(){
+     function __construct(){ // objeto que se le pasa los datos conexion base de datos
          $this->conexion = new mysqli($this->host, $this->user, $this->pass, $this->db);
          
      }
@@ -20,6 +20,39 @@
              
          }
      }
+     
+     /*
+     function usuariosHTML(){
+       $resultadohtml=<<<EOF
+       <table class="table table-striped">
+       <thead>
+          <tr>
+            <th>id</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>Sexo</th>
+          </tr>
+        </thead>
+        <tbody>
+        EOF;
+            // Realizamos la consulta
+            $consulta ="SELECT * FROM usuario";
+            
+            if($resultado  = $this->conexion->query($consulta)){
+             /* obtener un array asociativo 
+            while ($fila = $resultado->fetch_assoc()){
+             $resultadohtml=$resultadohtml."<tr>";
+             $resultadohtml=$resultadohtml."<td>";
+             $resultadohtml=$resultadohtml.$fila["id"];
+              
+            }
+            }
+        
+        
+        
+     }*/
+     
  }
 
 
