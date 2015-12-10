@@ -1,5 +1,4 @@
 <?php
-
     if(isset($_SESSION)){  
       
       session_destroy();  // destruye toda la información asociada con la sesión actual.
@@ -16,7 +15,6 @@
 ?>
 <?php
     include('auth.php'); // clase jugador autentificacion
-
 ?>
 <html>
     <head>
@@ -35,7 +33,6 @@
       <!--------->
     </head>
     <body>
-
         <?php
             include "lib/menu.php"; // importamos menu
         ?>
@@ -43,17 +40,12 @@
       
         
         <div class='container'>
-
         <form action="juego.php" method="post" class="formularioInicio" style="height: 350px"> <!-- Comprobacion del valor -->
           
             
                 <div class='col-xs-12'><h2><font color="white">Por favor introduce tus datos</font></h2></div> <!-- panel dados imgs -->
         
-            
-           
-             <div class="row">
-              <fieldset>
-                            <img src="img/player1.png" width="75" height="75" align="left"/>
+             <img src="img/player1.png" width="75" height="75" align="left"/>
                           <input type="hidden" name="jugador">
                           <label for="nombre" class="estiloletra">&nbsp;Nombre&nbsp;&nbsp;</label>  
                           <input id="nombre" name="nombre" type="text" value="<?php echo $jugador1->getNombre()?>" size="22" required="*">
@@ -71,16 +63,11 @@
                               <option value="junior+">Junior+</option>
                             </select>
                                <br><br>
-              
-              
-               
-                
-          
-            
-          
-                
-                
                 <button type="submit" class="btn btn-default">Salvar datos</button>
+           
+             <div class="row">
+              <fieldset>
+                           
      
             </div>    
             </div>

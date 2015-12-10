@@ -45,15 +45,32 @@
              $resultadohtml=$resultadohtml."<tr>";
              $resultadohtml=$resultadohtml."<td>";
              $resultadohtml=$resultadohtml.$fila["id"];
-              
+             $resultadohtml=$resultadohtml."</td>";
+             $resultadohtml=$resultadohtml."<td>";
+             $resultadohtml=$resultadohtml.$fila["nombre"];
+                $resultadohtml=$resultadohtml."</td>";
+                      $resultadohtml=$resultadohtml."<td>";
+             $resultadohtml=$resultadohtml.$fila["apellidos"];
+                $resultadohtml=$resultadohtml."</td>";
+                $resultadohtml=$resultadohtml."<td>";
+             $resultadohtml=$resultadohtml.$fila["edad"];
+                $resultadohtml=$resultadohtml."</td>";
+                 $resultadohtml=$resultadohtml."<td>";
+             $resultadohtml=$resultadohtml.$fila["sexo"];
+                $resultadohtml=$resultadohtml."</td>";
+                $resultadohtml=$resultadohtml."</tr>";
             }
+            $resultadohtml=$resultadohtml."</tbody></table>";
+            
+            // liberar el conjunto de resultados
+            $resultado->free();
             }
-        
-        
-        
-     }*/
+            return $resultadohtml;
+            }
+        */
+     }
      
- }
+
 
 
 ?>
