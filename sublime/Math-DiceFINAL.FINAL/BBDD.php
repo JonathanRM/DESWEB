@@ -1,11 +1,10 @@
 <?php 
 
     $conexion=new mysqli("localhost","jonathanr4m","","usuarios");
-    $query = 'SELECT * FROM usuario.usuarios where nombre="'.$_POST['nombre'].'"';
+    $query = 'SELECT * FROM usuarios.usuario where nombre="'.$_POST['nombre'].'"';
     $resultado=$conexion->query($query);
     $datos_user_db=[];
     if (mysqli_num_rows($resultado) != 0){
-    
     while ($rows = $resultado->fetch_assoc()) {
         $rows["id"]; $datos_user_db[0]=$rows["id"];
         $rows["nombre"]; $datos_user_db[1]=$rows["nombre"];
@@ -16,9 +15,9 @@
        
     } else {
         
-        $query_auser="INSERT INTO usuario.usuarios (nombre, apellidos, edad) VALUES ('".$_POST['nombre']."', '".$_POST['apellidos']."', '".$_POST['edad']."')";
+        $query_auser="INSERT INTO usuarios.usuario (nombre, apellidos, edad) VALUES ('".$_POST['nombre']."', '".$_POST['apellidos']."', '".$_POST['edad']."')";
         $conexion->query($query_auser);
-        $query = 'SELECT * FROM usuario where nombre="'.$_POST['nombre'].'"';
+        $query = 'SELECT * FROM usuarios.usuario where nombre="'.$_POST['nombre'].'"';
         $resultado=$conexion->query($query);
     while ($rows = $resultado->fetch_assoc()) {
         $rows["id"]; $datos_user_db[0]=$rows["id"];
@@ -45,7 +44,7 @@ function mostrar_db2(){
     }
     */
     
-    $query = "SELECT * FROM usuario";
+    $query = "SELECT * FROM usuarios.usuario";
     $resultado=$conexion->query($query);
     print("<table border='1'>");
     print("<tr align='center'>");

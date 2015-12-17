@@ -1,6 +1,6 @@
 <?php
 include('lib/Jugador.php'); // autentificacion
-
+//include('./BBDD.php');
 session_start(); // inicio sesion
 
 if(isset($_POST['jugador'])){ // comprobar objeto jugador

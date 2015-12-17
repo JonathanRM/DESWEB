@@ -884,3 +884,50 @@
 [17-Dec-2015 11:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
 [17-Dec-2015 11:22:22 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
 [17-Dec-2015 11:22:22 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:25:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:25:23 UTC] PHP Stack trace:
+[17-Dec-2015 11:25:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:25:23 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:25:23 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:25:23 UTC] PHP Fatal error:  Cannot redeclare mostrar_db2() (previously declared in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:33) in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 33
+[17-Dec-2015 11:25:23 UTC] PHP Stack trace:
+[17-Dec-2015 11:25:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:25:23 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:4
+[17-Dec-2015 11:25:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:25:29 UTC] PHP Stack trace:
+[17-Dec-2015 11:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:25:29 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:25:29 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:25:29 UTC] PHP Fatal error:  Cannot redeclare mostrar_db2() (previously declared in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:33) in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 33
+[17-Dec-2015 11:25:29 UTC] PHP Stack trace:
+[17-Dec-2015 11:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:25:29 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:4
+[17-Dec-2015 11:26:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:26:00 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:00 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:26:00 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:26:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:26:09 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:09 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:26:09 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:26:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:26:18 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:18 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:26:18 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:26:18 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/lib/menuUsuario.php on line 5
+[17-Dec-2015 11:26:18 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:18 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:27
+[17-Dec-2015 11:26:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:26:21 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:21 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:26:21 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[17-Dec-2015 11:26:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php on line 7
+[17-Dec-2015 11:26:35 UTC] PHP Stack trace:
+[17-Dec-2015 11:26:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[17-Dec-2015 11:26:35 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
+[17-Dec-2015 11:26:35 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
