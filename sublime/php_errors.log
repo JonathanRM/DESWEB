@@ -931,3 +931,7 @@
 [17-Dec-2015 11:26:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
 [17-Dec-2015 11:26:35 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:3
 [17-Dec-2015 11:26:35 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/BBDD.php:7
+[18-Dec-2015 08:58:23 UTC] PHP Fatal error:  Call to a member function getNombre() on a non-object in /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/lib/menuUsuario.php on line 5
+[18-Dec-2015 08:58:23 UTC] PHP Stack trace:
+[18-Dec-2015 08:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:0
+[18-Dec-2015 08:58:23 UTC] PHP   2. include() /home/ubuntu/workspace/sublime/Math-DiceFINAL.FINAL/juego.php:27

@@ -7,7 +7,7 @@ if(isset($_POST['jugador'])){ // comprobar objeto jugador
     if (!isset($_SESSION['jugador'])) {
         
        //$jugador1 = new Jugador($_POST['nombre'],$_POST['apellidos'],$_POST['edad'],$_POST['tipoJuego']); // crear objeto jugador
-       $jugador1 = new Jugador($datos_user_db[1],$_POST['apellidos'],$datos_user_db[3],$_POST['tipoJuego']); // crear objeto jugador
+       $jugador1 = new Jugador($datos_user_db[1],$datos_user_db[2],$datos_user_db[3],$_POST['tipoJuego']); // crear objeto jugador
         
         $_SESSION['jugador'] = $jugador1; // iniciamos jugador
     }
