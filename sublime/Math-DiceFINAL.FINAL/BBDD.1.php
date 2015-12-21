@@ -37,13 +37,6 @@ function mostrar_db2(){ //mostrar en una tabla la base de datos
     $user="jonathanr4m";
     $pass="";
     $conexion=new mysqli($server,$user,$pass,$db);
-   /*   COMPROBAR SI SE CONECTA A LA BBDD
-    if($conexion->connect_errno){
-        echo "Error al conectar";
-    } else {
-        echo "Conectado";
-    }
-    */
     
     $query = "SELECT * FROM usuarios.usuario";
     $resultado=$conexion->query($query);

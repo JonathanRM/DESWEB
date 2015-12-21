@@ -1,6 +1,6 @@
 <?php
 
- class BaseDatos{
+ class BaseDatos{ // conexion a la base de datos
      private $host="localhost";
      private $db="usuarios";
      private $user="jonathanr4m";
